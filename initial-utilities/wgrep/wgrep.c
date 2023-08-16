@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
     int rc = regcomp(&re, argv[1], REG_EXTENDED);
     if (rc != 0)
     {
-        printf("wgrep: invalid regex.\n");
+        printf("wgrep: invalid regex\n");
         return 1;
     }
 
